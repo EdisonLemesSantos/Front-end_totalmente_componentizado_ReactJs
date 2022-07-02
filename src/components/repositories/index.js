@@ -23,7 +23,7 @@ const Repositories = () => {
                     <RepositoryItem 
                     name="benits" 
                     linkToRepo="https://github.com/benits/benits"
-                    fullName="benits/benits"
+                    fullName="benits/benits"clear
                     />
                     </S.WrapperTabPanel>
         </S.WrapperTabs>
