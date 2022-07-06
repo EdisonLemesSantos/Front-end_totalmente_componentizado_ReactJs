@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+import Providers from "./providers";
+
+ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Providers />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
